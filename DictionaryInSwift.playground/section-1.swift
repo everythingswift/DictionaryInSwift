@@ -38,12 +38,12 @@ var airportsDictionary = ["DFW":"Dallas Fort Worth", "DAL":"Dallas Love Field", 
 airportsDictionary.count
 for key in airportsDictionary.keys
 {
-    println("Key : \(key)")
+    print("Key : \(key)")
 }
 
 for val in airportsDictionary.values
 {
-    println("Value : \(val)")
+    print("Value : \(val)")
 }
 
 let first1Dictionary = ["B":"Bus"]
